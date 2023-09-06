@@ -1,0 +1,124 @@
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form {
+  background: #0e101c;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.p-sign {
+  color: white;
+  size: 2px;
+}
+
+.p-sign::before {
+  display: inline;
+  content: '⚠ ';
+  color: rgb(117, 4, 4);
+  size: 10px;
+}
+
+.input-sign {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: #262725;
+}
+
+.input-sign::before {
+  border: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+.label-sign {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: rgb(152, 152, 152);
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.button-sign[type='submit'],
+.input-sign[type='submit'] {
+  background: #1a1a19;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 150;
+  letter-spacing: 3px;
+}
+
+.button-sign[type='submit']:hover,
+.input-sign[type='submit']:hover {
+  background: #262725;
+}
+
+.button-sign[type='submit']:active,
+.input-sign[type='button']:active,
+.input-sign[type='submit']:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+.input-sign:disabled {
+  opacity: 0.4;
+}
+
+.input-sign[type='button']:hover {
+  transition: 0.3s all;
+}
+
+.button-sign[type='submit'],
+.input-sign[type='button'],
+.input-sign[type='submit'] {
+  -webkit-appearance: none;
+}
+
+.hr-sign {
+  margin-top: 30px;
+}
+
+.button-sign {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h4-sign {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.link-sign {
+  text-decoration: none;
+  color: #333;
+}
